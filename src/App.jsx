@@ -1,10 +1,10 @@
-import Parent from "./Hooks/useContext/Parent";
-
+import Complex from "./Hooks/useReducer/Complex";
+import Reducer from "./Hooks/useReducer/Reducer";
 
 function App() {
   return (
     <>
-     <Parent/>
+      <Complex />
     </>
   );
 }
