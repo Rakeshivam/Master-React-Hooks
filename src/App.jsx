@@ -1,9 +1,9 @@
-import Basic from "./Hooks/useMemo/Basic";
+import Callback from "./Hooks/useCallback/Callback";
 
 function App() {
   return (
     <>
-      <Basic />
+      <Callback />
     </>
   );
 }
