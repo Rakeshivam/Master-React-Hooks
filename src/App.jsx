@@ -1,9 +1,9 @@
-import Pro from "./Hooks/useRef/Pro";
+import Basic from "./Hooks/useMemo/Basic";
 
 function App() {
   return (
     <>
-      <Pro />
+      <Basic />
     </>
   );
 }
