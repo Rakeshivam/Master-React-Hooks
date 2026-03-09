@@ -1,9 +1,10 @@
-import Callback from "./Hooks/useCallback/Callback";
+import Parent from "./Hooks/useContext/Parent";
+
 
 function App() {
   return (
     <>
-      <Callback />
+     <Parent/>
     </>
   );
 }
