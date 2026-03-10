@@ -1,9 +1,11 @@
-import AxiosPost from "./Axios/AxiosPost";
+import LazyLoading from "./LazyLoading/LazyLoading";
+import "./App.css";
+import Header from "./LazyLoading/Header";
 
 function App() {
   return (
     <>
-      <AxiosPost />
+      <Header />
     </>
   );
 }
