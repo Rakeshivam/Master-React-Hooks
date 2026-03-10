@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, {  useState } from "react";
+import React, { useState } from "react";
 
 const AxiosPost = () => {
   const data = { fname: "", lname: "" };
@@ -18,6 +18,25 @@ const AxiosPost = () => {
         console.log(res);
       });
   };
+
+  const handleUpdate = (e) => {
+    e.preventDefault();
+    axios
+      .put("https://jsonplaceholder.typicode.com/users/1", inputData)
+      .then((res) => {
+        console.log(res);
+      });
+  };
+
+  const handleDelete = (e) => {
+    e.preventDefault();
+    axios
+      .delete("https://jsonplaceholder.typicode.com/users/1")
+      .then((res) => {
+        console.log(res);
+      });
+  };
+
   return (
     <>
       <form action="">
@@ -41,6 +60,8 @@ const AxiosPost = () => {
         />
         <br />
         <button onClick={handleSubmit}>Submit</button>
+        <button onClick={handleUpdate}>Update</button>
+        <button onClick={handleDelete}>Delete</button>
       </form>
     </>
   );
