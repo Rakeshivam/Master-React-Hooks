@@ -1,5 +1,4 @@
-import Complex from "./Hooks/useReducer/Complex";
-import Reducer from "./Hooks/useReducer/Reducer";
+import Complex from "./Hooks/customHooks/Complex";
 
 function App() {
   return (
