@@ -1,9 +1,10 @@
-import Complex from "./Hooks/customHooks/Complex";
+import Parent from "./PropsDrilling/Parent";
+
 
 function App() {
   return (
     <>
-      <Complex />
+      < Parent/>
     </>
   );
 }
