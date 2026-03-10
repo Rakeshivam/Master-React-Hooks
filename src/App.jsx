@@ -1,4 +1,5 @@
-import Parent from "./PropsDrilling/Parent";
+import Parent from "./ContextAPI/Parent";
+
 
 
 function App() {
