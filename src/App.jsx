@@ -1,11 +1,9 @@
-import Parent from "./ContextAPI/Parent";
-
-
+import AxiosPost from "./Axios/AxiosPost";
 
 function App() {
   return (
     <>
-      < Parent/>
+      <AxiosPost />
     </>
   );
 }
